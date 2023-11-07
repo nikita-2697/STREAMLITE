@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import page2 as p2
+import plotly.express as px
 st.write("HIII")
 header = st.container()
 with header:

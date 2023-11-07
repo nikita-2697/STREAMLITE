@@ -16,4 +16,4 @@ with header:
 # m=Prophet()
 # st.set_page_config(page_title = "")
 
-st.line_chart(data, x=data['Date'].head(), y=data['Count'].head(),color=None)
+st.line_chart(data, x='Date', y='Count'.head(),color=None)

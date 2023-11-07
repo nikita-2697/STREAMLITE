@@ -6,7 +6,7 @@ header = st.container()
 with header:
   st.title("Hii welcome")
   data = pd.read_csv("data.csv")
-  st.write(data['7036745'].head())
+  st.write(data.head())
   abc= data['7036745'].head()
   st.selectbox("AccountID", abc)
   p2.showthis()

@@ -7,6 +7,6 @@ with header:
   st.title("Hii welcome")
   data = pd.read_csv("data.csv")
   st.write(data.head())
-  # abc= data['7036745'].head()
-  # st.selectbox("AccountID", abc)
+  abc= data['14.14'].head()
+  st.selectbox("AccountID", abc)
   p2.showthis()

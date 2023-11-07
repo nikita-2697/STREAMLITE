@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 import page2 as p2
 import plotly.express as px
-import prophet 
+import prophet as p
+from p import Prophet
 st.write("HIII")
 header = st.container()
 with header:
@@ -12,5 +13,5 @@ with header:
   abc= data['14.14'].head()
   val = st.selectbox("AccountID", abc)
   p2.showthis(val)
-
+# m=Prophet()
 # st.set_page_config(page_title = "")

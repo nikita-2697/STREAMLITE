@@ -12,5 +12,5 @@ with header:
   abc= data['14.14'].head()
   val = st.selectbox("AccountID", abc)
   p2.showthis(val)
-m=p()
+m=Prophet()
 # st.set_page_config(page_title = "")

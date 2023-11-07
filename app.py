@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 import page2 as p2
 import plotly.express as px
-# import prophet.Prophet as p
+import prophet
+import prophet.Prophet as p
 # import Prophet from p
 st.write("HIII")
 header = st.container()

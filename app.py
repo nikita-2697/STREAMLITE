@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import page2 as p2
-import matplotlib.pyplot as plt
-import seaborn as sns
+import plotly.express as px
+import streamlit as st
 # from prophet import Prophet
 st.write("HIII")
 header = st.container()
@@ -15,3 +15,5 @@ with header:
   p2.showthis(val)
 # m=Prophet()
 # st.set_page_config(page_title = "")
+
+st.line_chart(data, x="data['Date']", y="data['Count']", '')

@@ -3,8 +3,7 @@ import pandas as pd
 import page2 as p2
 import plotly.express as px
 import prophet
-import prophet.Prophet as p
-# import Prophet from p
+import prophet.Prophet
 st.write("HIII")
 header = st.container()
 with header:

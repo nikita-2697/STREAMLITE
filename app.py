@@ -9,7 +9,7 @@ with header:
   st.title("Hii welcome")
   data = pd.read_csv("data.csv")
   st.write(data.head())
-  abc= data['14.14'].head()
+  abc= data['Date'].head()
   val = st.selectbox("AccountID", abc)
   p2.showthis(val)
 # m=Prophet()

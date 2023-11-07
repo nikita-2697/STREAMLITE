@@ -1,3 +1,3 @@
 import streamlit as st
-def showthis():
-  st.write("second page")
+def showthis(val):
+  st.write("second page",val)

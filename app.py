@@ -8,5 +8,5 @@ with header:
   data = pd.read_csv("data.csv")
   st.write(data.head())
   abc= data['14.14'].head()
-  st.selectbox("AccountID", abc)
-  p2.showthis()
+  val = st.selectbox("AccountID", abc)
+  p2.showthis(val)

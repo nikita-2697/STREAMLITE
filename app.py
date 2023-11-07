@@ -4,5 +4,5 @@ st.write("HIII")
 header = st.container()
 with header:
   st.title("Hii welcome")
-  data = st.read_csv("data.csv")
+  data = pd.read_csv("data.csv")
   st.write(data.head)

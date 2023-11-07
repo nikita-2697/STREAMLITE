@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 import page2 as p2
-import plotly.express as px
+import matplotlib.pyplot as plt
+import seaborn as sns
 # from prophet import Prophet
 st.write("HIII")
 header = st.container()

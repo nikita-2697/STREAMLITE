@@ -4,7 +4,10 @@ import page2 as p2
 import plotly.express as px
 import streamlit as st
 # from prophet import Prophet
-st.write("HIII")
+st.markdown(""" <style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style> """, unsafe_allow_html=True)
 header = st.container()
 with header:
   st.title("Hii welcome")
